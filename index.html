@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <title>r/NBA GAME THREAD: 2016 NBA Finals Game 7</title> 
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+        <script src="https://d3js.org/d3.v4.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="game7.css">
+        <link rel="stylesheet" href="../code/jquery/gifplayer.css">
+    </head>
+    <body>
+        <div>
+            <div class="title">
+                <h2>r/NBA GAME THREAD: 2016 NBA Finals Game 7</h2>
+                <h2><small>by <a href="https://github.com/rodger-yuan">rodger yuan</a> </small></h2>
+            </div>
+            <hr>
+            <div id="bullets">
+            	<ul>
+            		<li>A dotplot showing every comment made in the r/nba game thread for the 2016 NBA Finals Game 7</li>
+            		<li>X-Axis: # comments created over real time 10 second intervals, Y-Axis: Real time in EST</li>
+                    <li>Each dot on the left represents a comment, and each line represents a play in the game</li>
+            		<li>A comment or play-by-play event that references a specific player is <span style="color:red">colored </span> (with a key in the annotations)</li>
+            		<li>Hover over the dots to see more specifics: comments on the left and play-by-play on the right</li>
+                    <li><a href="https://www.reddit.com/r/nba/comments/4ovo70/game_thread_cleveland_cavaliers_33_golden_state/">First half game thread link</a> and <a href="https://www.reddit.com/r/nba/comments/4ow6vj/game_thread_cleveland_cavaliers_33_golden_state/"> Second half game thread link</a></li>
+            	</ul>
+            </div>
+            <div class="wrapper">
+            	<div class="graph"></div>
+                <div class="score"></div>
+            	<div class="annotations"></div>
+                <div id="barnes1">
+                    <p>&#8592 After a quiet start, r/nba ignites after a Harrison
+                    <span style="color:pink">Barnes</span> 3-pointer </p>
+                    <img class="gifplayer" src="gifs/1_Barnes.png"/>
+                    <br />
+                    <br />
+                    <p>&#8598 With 8 minutes to go in the 1st, <span style="color:orange">KLove</span> fires up r/nba by pounding the glass</p>
+                    <img class="gifplayer" src="gifs/2_Love.png"/>
+                </div>
+                <div id="players">
+                    <h3 style="font-size:15px">Key:</h3>
+                    <h3><span style="color:red">LeBron James</span>  <span style="color:blue">Stephen Curry</span></h3>
+                    <h3><span style="color:aqua">Kyrie Irving</span> <span style="color:lime">Draymond Green</span></h3>
+                    <h3><span style="color:orange">Kevin Love</span>  <span style="color:yellow">Klay Thompson</span></h3>
+                    <h3><span style="color:pink">Harrison Barnes</span> <span style="color:purple">JR Smith</span></h3>
+                    <h3><span style="color:brown">Iman Shumpert</span> <span style="color:orchid">Anderson Varejao</span></h3>
+                </div>
+                <div id="barnes3">
+                    <p>&#8592 <span style="color:pink">Barnes</span> love quickly turns to Barnes hate, as he misses two shots in rapid succession</p>
+                    <img class="gifplayer" src="gifs/3_Barnes.png"/>
+                </div>
+                <div id="varejao4">
+                    <p>&#8592 A flop by <span style="color:orchid">Varejao</span> on a <span style="color:orange">KLove</span> post-up sends r/nba into a frenzy for 2 full minutes</p>
+                    <img class="gifplayer" src="gifs/4_Varejao.png"/>
+                </div>
+                <div id="shumpert5">
+                    <p>&#8592 After a short quiet spell, a <span style="color:brown">Shump</span> AND-1 triple gets makes r/nba question everything they think they know</p>
+                    <img class="gifplayer" src="gifs/5_Shumpert.png"/>
+                </div>
+                <div id="lebron6">
+                    <p>&#8592 A red and blue mosaic arises from a <span style="color:red">LeBron</span> swat of <span style="color:blue">Curry</span></p>
+                    <img class="gifplayer" src="gifs/6_Lebron.png"/>
+                </div>
+                <div id="draymond8">
+                    <p>&#8592 After 2 straight 3's and an AND-1, 9:00-9:07PM is the <span style="color:lime">Dray</span> show</p>
+                    <img class="gifplayer" src="gifs/8_Draymond.png"/>
+                </div>
+                <div id="steph9">
+                    <p>&#8592 A ticky-tack 3rd foul call on <span style="color:blue">Steph</span> draws some outrage (and some rejoicing too)</p>
+                </div>
+                <div id="halftime">
+                    <p>Halftime is looooooong and r/nba is quiet. There's even a 10 second span where no comments are made... must have been a good halftime show</p>
+                </div>
+                <div id="barnes10">
+                    <p>&#8592 If there's one thing r/nba loves, it's hating on <span style="color:pink">Harry Barnes.</span> A missed shot+foul has people talking for 4 whole minutes</p>
+                    <img class="gifplayer" src="gifs/10_Barnes.png"/>
+                </div>
+                <div id="curry10">
+                    <p>&#8592 5 straight points from <span style="color:blue">Steph</span> creates some rumbles, but not as much as I would have expected. <span style="color:red">Lebron's</span> missed jumper makes this region blue and red</p>
+                </div>
+                <div id="varejao11">
+                    <p>&#8592 <span style="color:orchid">Varejao</span> getting swatted is the last straw for r/nba and Kerr, as it's the last we see of him the rest of the game</p>
+                    <img class="gifplayer" src="gifs/11_Varejao.png"/>
+                </div>
+                <div id="kyrie12">
+                    <p>&#8592 The comment rate hits a new peak as <span style="color:aqua">Kyrie</span> converts a sexy lay-in</p>
+                    <img class="gifplayer" src="gifs/12_Kyrie.png"/>
+                </div>
+                <div id="barnes13">
+                    <p>&#8592 A pattern emerges: r/nba clearly has some obsession with <span style="color:pink">Harrison Barnes</span> as comments appear for every play he's involved in. Meanwhile Klay mentions are few and far between</p>
+                </div>
+                <div id="kyrie13">
+                    <p>&#8592 As the 4th quarter starts, comments become less frequent during the game, and more frequent during commercial breaks. <span style="color:aqua">Kyrie's</span> tip-in comes right before a commercial break, leading to some discussion</p>
+                    <img class="gifplayer" src="gifs/13_Kyrie.png"/>
+                </div>
+                <div id="steph14">
+                    <p>&#8592 <span style="color:blue">Steph's</span> huge pull-up 3 ties the game, with only a small up-tick in comment rate. People are glued in</p>
+                    <img class="gifplayer" src="gifs/14_Steph.png"/>
+                </div>
+                <div id="lebron15">
+                    <p>&#8592 The play of the game (in my opinion) gives rise to a new peak. <span style="color:red">Lebron's</span> iconic chasedown block on Iggy</p>
+                    <img class="gifplayer" src="gifs/15_Lebron.png"/>
+                    <br />
+                    <br />
+                    <p>&#8598 <span style="color:aqua">Kyrie</span> put's the Cavs on top with a CLUTCH 3, stealing a bit (but not much) of Lebron's spotlight</p>
+                    <img class="gifplayer" src="gifs/16_Kyrie.png"/>
+                    <br />
+                    <br />
+                    <p>&#8598 Finally, the comment rate reaches it's maximum peak after a hard foul from <span style="color:lime">Dray</span> who survives <span style="color:red">Lebron's</span> murder attempt, sending Bron to the floor</p>
+                    <img class="gifplayer" src="gifs/17_Lebron.png"/>
+                    <br />
+                    <br />
+                    <p>&#8598 Redditors react swiftly following the end of the game, voicing their happiness, sadness, or straight up disbelief. 5 minutes later, the comments die down and the herd moves on to the post game thread</p>
+                </div>
+            </div>
+            <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+            <script src="code/jquery/jquery.gifplayer.js"></script>
+            <script src="code/js/main.js"></script>
+            <script>
+                $('.gifplayer').gifplayer();
+            </script>
+        </div>    
+    </body>
+</html>

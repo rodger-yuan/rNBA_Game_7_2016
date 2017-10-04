@@ -1,0 +1,193 @@
+body {
+    font-family: 'Abel', sans-serif;
+}
+
+ul {
+    font-size: 12pt;
+}
+
+h2 {
+    font-size: 40px;
+    margin-top:20px;
+    color: black;
+}
+
+h3 {
+    font-size: 15px;
+    margin-bottom: -15px;
+}
+
+hr {
+    margin: auto;
+    width: 1005px;
+	margin-top: 0px;
+    margin-bottom: 5px;
+	border-width: 2px;
+	border-color: black;
+}
+
+p {
+    font-size: 13px;
+}
+
+.tick text{
+    font-family: 'Abel', sans-serif;
+    font-size: 15px;
+}
+
+.title {
+    margin: auto;
+    width: 960px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper {
+    width: 960px;
+    height: 10000px;
+    display: grid;
+    margin: auto;
+    grid-template-columns: 700px 60px 200px;
+    grid-template-rows: 
+    21px 192px 600px 371px 1021px 
+    354px 209px 418px 507px 677px 
+    347px 217px 290px 636px 522px 
+    336px 774px 1fr; /*7492*/
+}  
+
+.graph {
+    grid-column: 1 / span 1;
+    grid-row: 1 / last-row;
+}
+
+.score {
+    grid-column: 2 / span 1;
+    grid-row: 1 / last-row;
+}
+
+#players {
+    grid-column: 3 / span 1;
+    grid-row: 2 / span 1;
+}
+
+#barnes1 {
+    grid-column: 3 / span 1;
+    grid-row: 3 / span 1;
+}
+
+#barnes3 {
+    grid-column: 3 / span 1;
+    grid-row: 4 / span 1;    
+}
+
+#varejao4 {
+    grid-column: 3 / span 1;
+    grid-row: 5 / span 1;    
+}
+
+#shumpert5 {
+    grid-column: 3 / span 1;
+    grid-row: 6 / span 1;    
+}
+
+#lebron6 {
+    grid-column: 3 / span 1;
+    grid-row: 7 / span 1;    
+}
+
+#draymond8 {
+    grid-column: 3 / span 1;
+    grid-row: 8 / span 1;    
+}
+
+#steph9 {
+    grid-column: 3 / span 1;
+    grid-row: 9 / span 1;      
+}
+
+#halftime {
+    grid-column: 3 / span 1;
+    grid-row: 10 / span 1; 
+}
+
+#barnes10 {
+    grid-column: 3 / span 1;
+    grid-row: 11 / span 1; 
+}
+
+#curry10 {
+    grid-column: 3 / span 1;
+    grid-row: 12 / span 1;
+}
+
+#varejao11 {
+    grid-column: 3 / span 1;
+    grid-row: 13 / span 1;
+}
+
+#kyrie12 {
+    grid-column: 3 / span 1;
+    grid-row: 14 / span 1;
+}
+
+#barnes13 {
+    grid-column: 3 / span 1;
+    grid-row: 15 / span 1;
+}
+
+#kyrie13 {
+    grid-column: 3 / span 1;
+    grid-row: 16 / span 1;
+}
+
+#steph14 {
+    grid-column: 3 / span 1;
+    grid-row: 17 / span 1;
+}
+
+#lebron15 {
+    grid-column: 3 / span 1;
+    grid-row: 18 / span 1;
+}
+
+#bullets {
+    height: auto;
+    width: 955px;
+    margin-top: 10px;
+    margin: auto;
+    position: relative;
+} 
+
+#scoreboard {
+    font-size: 15px;
+}
+
+#scoreboard_name {
+    font-size: 12px;
+}
+
+#tt_com{
+    font-family: 'Abel', sans-serif;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+}
+
+#tt_play{
+    font-size: 12px;
+}
+
+#annotation {
+    font-size: 20px;
+    opacity: 0.5;
+}
+
+.arrow{
+    stroke-width:2;
+    stroke: black;
+}
+
+#arrow{
+    stroke-width:1;
+    stroke-dasharray:0; 
+}
